@@ -14,7 +14,7 @@ Spring Security ให้การสนับสนุนที่ครอบ�
 
       PasswordEncoder passwordEncoder = PasswordEncoderFactories.createDelegatingPasswordEncoder();
 
-- Default DelegatingPasswordEncoder
+- Custom DelegatingPasswordEncoder
 
       String idForEncode = "bcrypt";
       Map encoders = new HashMap<>();
