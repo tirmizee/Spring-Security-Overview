@@ -2,7 +2,7 @@
 
 ### Authentication
 
-Spring Security ให้การสนับสนุนที่ครอบคลุมสำหรับสำหรับการทำ Authentication
+Spring Security ให้การสนับสนุนสำหรับการทำ Authentication ที่ครอบคลุม 
 
 #### Password Storage
 
