@@ -4,6 +4,10 @@
 
 Spring Security ให้การสนับสนุนที่ครอบคลุมสำหรับสำหรับการทำ Authentication
 
+#### Password Storage
+
+อินเทอร์เฟซ PasswordEncoder ของ Spring Security ใช้ในการแปลงรหัสผ่านทิศทางเดียว เพื่อให้สามารถจัดเก็บรหัสผ่านได้อย่างปลอดภัย
+
 #### ภาพรวมของ Spring Security Module
 
 <p align="center">
