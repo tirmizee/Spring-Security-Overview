@@ -36,3 +36,7 @@ Spring Security ให้การสนับสนุนสำหรับก�
  
  Client ส่ง Request ไปยัง Application และ Container จะทำการสร้าง FilterChain ซึ่งมี Filters และ Servlet ที่ประมวลผล HttpServletRequest 
  
+ 
+ ### Reference
+ 
+ - https://www.marcobehler.com/guides/spring-security#:~:text=At%20its%20core%2C%20Spring%20Security,standards%20like%20OAuth2%20or%20SAML.
