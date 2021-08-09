@@ -1,11 +1,22 @@
  
  #### @SpringBootApplication to use auto-configuration
  
- annotation @SpringBootApplication คือการรวม 
+@SpringBootApplication คือการรวม 
  
  - @EnableAutoConfiguration
  - @ComponentScan
  - @SpringBootConfiguration
+ 
+       @ComponentScan
+       @EnableAutoConfiguration
+       @SpringBootConfiguration
+       public class MyApplication {
+
+           public static void main(String[] args) {
+               SpringApplication.run(MyApplication.class, args);
+           }
+
+       }
  
  #### 90.1 Switch off the Spring Boot Security Configuration
  
