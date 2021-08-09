@@ -37,6 +37,10 @@ Spring Security ให้การสนับสนุนสำหรับก�
  Client ส่ง Request ไปยัง Application และ Container จะทำการสร้าง FilterChain ซึ่งมี Filters และ Servlet ที่ประมวลผล HttpServletRequest 
  
  
+ #### 90.1 Switch off the Spring Boot Security Configuration
+ 
+ หากคุณกำหนด @Configuration ด้วย WebSecurityConfigurerAdapter ในแอปพลิเคชันของคุณ มันจะปิดการตั้งค่าความปลอดภัยเริ่มต้นของ webapp ใน Spring Boot
+ 
  ### Reference
  
  - https://www.marcobehler.com/guides/spring-security#:~:text=At%20its%20core%2C%20Spring%20Security,standards%20like%20OAuth2%20or%20SAML.
